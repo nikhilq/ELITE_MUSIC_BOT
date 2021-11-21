@@ -35,7 +35,7 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
  await message.reply_sticker("CAACAgQAAxkBAAJ2LWGZqAe9erfdYqzi78gJM5i4baGcAAIeCgACz9YRUXNuChP5kGjfIgQ")
  await message.reply_photo(
-        photo=f"https://telegra.ph/file/8848147cd4fb6af2f094f.jpg",
+        photo=f"https://telegra.ph/file/3199e020f1322c9728ca8.jpg",
         caption=f"""**ᴀ ᴀᴅᴠᴀɴᴄᴇᴅ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜꜱɪᴄ ʙᴏᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴍᴏɴɢᴏᴅʙ ᴡɪᴛʜ ᴀɪ ꜰᴇᴀᴛᴜʀᴇꜱ ...
 💞 ᴛʜᴀɴᴋꜱ ꜰᴏʀ  
 ᴜꜱɪɴɢ [xᴍᴀʀᴛʏ ᴜᴘᴅᴀᴛᴇs](t.me/dost_hai_sab) ...
@@ -90,7 +90,7 @@ async def start(client: Client, message: Message):
 async def help(client: Client, message: Message):
  await message.reply_sticker("CAACAgQAAxkBAAJ2LWGZqAe9erfdYqzi78gJM5i4baGcAAIeCgACz9YRUXNuChP5kGjfIgQ")
  await message.reply_photo(
-        photo=f"https://telegra.ph/file/8848147cd4fb6af2f094f.jpg",
+        photo=f"https://telegra.ph/file/3199e020f1322c9728ca8.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
