@@ -61,8 +61,8 @@ async def ubkickme(_, message: Message):
 @XMARTYUB.on_message(filters.command("alive", [".", "/"]) & filters.me & ~filters.edited)
 async def ubalive(_, message: Message):
   alive_msg = await message.edit_text("`Processing...`")
-  alive_pic = "https://telegra.ph/file/8848147cd4fb6af2f094f.jpg"
-  await message.reply_photo(alive_pic, caption=f"**☑️ Zaid Music Userbot is Alive 🌀** \n\n**🤖 Version** \n ↳**Bot Version:** `{z_version}` \n ↳**Userbot Version:** `{xmartyub_version}` \n\n**🐬 Info**\n ↳**Music Bot:** @{BOT_USERNAME} \n ↳**Owner:** [Click Here](tg://user?id={BOT_OWNER})")
+  alive_pic = "https://telegra.ph/file/3199e020f1322c9728ca8.jpg"
+  await message.reply_photo(alive_pic, caption=f"**☑️ Nikhil Music Userbot is Alive 🌀** \n\n**🤖 Version** \n ↳**Bot Version:** `{z_version}` \n ↳**Userbot Version:** `{xmartyub_version}` \n\n**🐬 Info**\n ↳**Music Bot:** @{BOT_USERNAME} \n ↳**Owner:** [Click Here](tg://user?id={BOT_OWNER})")
   await alive_msg.delete()
 
 
@@ -84,13 +84,13 @@ async def getlogs(client: XMARTYUB, message: Message, app_):
       return # Next level logic lol
     logmsg = await message.edit_text("`PM Message Logs Module is Starting Now...`")
     await asyncio.sleep(2) # Lmao
-    chat_pic = "https://telegra.ph/file/8848147cd4fb6af2f094f.jpg"
+    chat_pic = "https://telegra.ph/file/3199e020f1322c9728ca8.jpg"
     try:
       await logmsg.edit("`Creating Private Group Now...`!")
       pmchat = await XMARTYUB.create_group(f"Userbot's PM Logs", BOT_OWNER)
       chat_id = pmchat.id
       await XMARTYUB.set_chat_photo(chat_id=chat_id, photo=chat_pic)
-      await logmsg.edit(f"`Successfully Finished Step 1, To Enable This Feature Please Check Your Log Group That Created Now!!` \n\n ~ **@XMARTY_SUPPORT**")
+      await logmsg.edit(f"`Successfully Finished Step 1, To Enable This Feature Please Check Your Log Group That Created Now!!` \n\n ~ **@dost_hai_sab**")
       await client.send_message(chat_id, f"**Welcome to @{(await XMARTYUB.get_me()).username}'s PM Log Group!** \nThis Chat will Contain All PM Messages Of **@{(await XMARTYUB.get_me()).username}** ! \n\n\n`/setvar PM_LOG_CHAT_ID {chat_id}` \n\n ✪ **Please Copy and Send Above Command To Your @{BOT_USERNAME} Now**!")
     except Exception as lol:
       await logmsg.edit(f"`Can't Enable This Feature!, Something Wrong Happend!` \n\n**Error:** `{lol}`")
