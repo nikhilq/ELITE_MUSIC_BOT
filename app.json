@@ -1,9 +1,9 @@
 {
-    "name": "ELITE_MUSIC_BOT",
-    "logo": "https://telegra.ph/file/8848147cd4fb6af2f094f.jpg",
-    "description": "ELITE BOT music allow you to stream music trought the telegram voice chat feature.",
+    "name": "NIKHIL_MUSIC_BOT",
+    "logo": "https://telegra.ph/file/3199e020f1322c9728ca8.jpg",
+    "description": "NIKHIL BOT music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/S780821/ELITE_MUSIC_BOT",
+    "repository": "https://github.com/nikhilq/ELITE_MUSIC_BOT",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
