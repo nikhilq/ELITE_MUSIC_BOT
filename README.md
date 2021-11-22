@@ -16,7 +16,7 @@
 
 
 
-[![ɢᴇɴᴇʀᴀᴛᴇ ꜱᴇꜱꜱɪᴏɴ](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@S780821/PyrogramSession#main.py)
+[![ɢᴇɴᴇʀᴀᴛᴇ ꜱᴇꜱꜱɪᴏɴ](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@nikhilq1/PyrogramSession-1#main.py)
 
 ## ᴄᴏᴍᴍᴀɴᴅꜱ 
 
